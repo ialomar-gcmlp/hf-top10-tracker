@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# ---------------------------------------------------------------------------
+# GCM-CONFIDENTIAL RUNTIME DATA -- never commit.
+#
+# These paths hold DealCloud research note bodies (manager-confidential
+# commentary, named contacts, and short positions -- some notes are explicitly
+# marked not for external disclosure), parsed holdings, and finished reports
+# with live position weights.
+#
+# The skill recreates all of it on each run. None of it belongs in git.
+# ---------------------------------------------------------------------------
+cache/
+output/

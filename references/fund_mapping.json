@@ -1,0 +1,186 @@
+{
+  "_comment": "Resolved 2026-08-27 against live SEC EDGAR and GCM DealCloud. Confirmed by the user for BlackRock. Do not re-resolve on every run: read edgar.cik and dealcloud.entry_id straight from here.",
+  "_schema": {
+    "edgar.cik": "10-digit zero-padded SEC CIK. null = deliberately not used; see edgar.note.",
+    "edgar.use": "false means never pull 13F for this fund, for the stated reason.",
+    "dealcloud.entry_id": "PubInvestmentManager EntryId.",
+    "last_quarter_seen": "Written back by the weekly run; used to skip an unchanged 13F."
+  },
+  "funds": [
+    {
+      "fund": "D1 Capital Partners",
+      "edgar": {
+        "use": true,
+        "cik": "0001747057",
+        "filer_name": "D1 Capital Partners L.P."
+      },
+      "dealcloud": {
+        "entry_id": 332808,
+        "name": "D1 Capital Partners L.P."
+      },
+      "caveat": "Large private book. 13F weights are share of the long US-listed equity sleeve only and materially overstate position size versus total AUM.",
+      "last_quarter_seen": "2026-06-30"
+    },
+    {
+      "fund": "BlackRock Strategic",
+      "edgar": {
+        "use": false,
+        "cik": null,
+        "filer_name": null,
+        "note": "NO USABLE 13F. EDGAR name search for 'BlackRock' returns BLACKROCK ADVISORS LLC (CIK 0001086364) whose last 13F-HR is 2016-12-31, and BlackRock Finance, Inc. (CIK 0001364742) last filed 2024-06-30. Neither is the STA strategy fund. BlackRock's firm-wide 13F would reflect ~$11T of index/ETF assets and is meaningless as a proxy for a single hedge fund strategy. DealCloud is the only valid source for this fund."
+      },
+      "dealcloud": {
+        "entry_id": 332064,
+        "name": "BlackRock",
+        "note": "User-confirmed 2026-08-27. Ambiguous: DealCloud also holds 332065 'BlackRock, Inc.' (which carried the MORE RECENT note, 'PMM: BlackRock STA July 2026 Update', 2026-08-11) and 332979 'DSP Blackrock Asset Management'. User selected 332064. If a run finds 332064 has gone quiet while 332065 keeps receiving STA notes, raise it rather than switching silently."
+      },
+      "caveat": "DealCloud-only fund: no 13F is pulled for BlackRock Strategic by design.",
+      "last_quarter_seen": null
+    },
+    {
+      "fund": "Maplelane Capital",
+      "edgar": {
+        "use": true,
+        "cik": "0001512173",
+        "filer_name": "MAPLELANE CAPITAL, LLC"
+      },
+      "dealcloud": {
+        "entry_id": 334531,
+        "name": "Maplelane Capital LLC"
+      },
+      "caveat": null,
+      "last_quarter_seen": "2026-06-30"
+    },
+    {
+      "fund": "Aspex Management",
+      "edgar": {
+        "use": true,
+        "cik": "0001768375",
+        "filer_name": "Aspex Management (HK) Ltd",
+        "note": "Files under 'Aspex Management (HK) Ltd'. An exact-string search for 'Aspex Management' still resolves, but search the short token 'Aspex' if re-resolving."
+      },
+      "dealcloud": {
+        "entry_id": 331807,
+        "name": "Aspex Management"
+      },
+      "caveat": "Hong Kong based with substantial non-US exposure. The 13F captures only the US-listed long sleeve, so it is an incomplete view of the portfolio.",
+      "last_quarter_seen": "2026-06-30"
+    },
+    {
+      "fund": "Tiger Global",
+      "edgar": {
+        "use": true,
+        "cik": "0001167483",
+        "filer_name": "TIGER GLOBAL MANAGEMENT LLC"
+      },
+      "dealcloud": {
+        "entry_id": 336466,
+        "name": "Tiger Global Management, LLC"
+      },
+      "caveat": "Very large private/venture book. 13F weights cover the public long sleeve only and overstate position size versus total AUM.",
+      "last_quarter_seen": "2026-06-30"
+    },
+    {
+      "fund": "Coatue Management",
+      "edgar": {
+        "use": true,
+        "cik": "0001135730",
+        "filer_name": "COATUE MANAGEMENT LLC"
+      },
+      "dealcloud": {
+        "entry_id": 332576,
+        "name": "Coatue"
+      },
+      "caveat": "Large private/venture book. 13F weights cover the public long sleeve only.",
+      "last_quarter_seen": "2026-06-30"
+    },
+    {
+      "fund": "Skye Global Management",
+      "edgar": {
+        "use": true,
+        "cik": "0001675884",
+        "filer_name": "Skye Global Management LP"
+      },
+      "dealcloud": {
+        "entry_id": 336040,
+        "name": "Skye Global",
+        "note": "Chosen over 336041 'Skye Investment Advisors LLC' (last note 2026-03-09) on recency and name match."
+      },
+      "caveat": null,
+      "last_quarter_seen": "2026-06-30"
+    },
+    {
+      "fund": "Avala Global",
+      "edgar": {
+        "use": true,
+        "cik": "0001948899",
+        "filer_name": "Avala Global LP"
+      },
+      "dealcloud": {
+        "entry_id": 331878,
+        "name": "Avala Global"
+      },
+      "caveat": null,
+      "last_quarter_seen": "2026-06-30"
+    },
+    {
+      "fund": "Kinetic Partners",
+      "edgar": {
+        "use": true,
+        "cik": "0001911448",
+        "filer_name": "Kinetic"
+      },
+      "dealcloud": {
+        "entry_id": 334173,
+        "name": "Kinetic Partners Management, LP",
+        "note": "Three decoys share the 'Kinetic' stem: 333811 'Horizon Kinetics', 333812 'Horizon Kinetics Asset Management' (both last noted 2019) and 334174 'Kinetics Advisers LLC' (2006). Match on 'Kinetic Partners', never on the bare stem."
+      },
+      "caveat": "EDGAR conformed name is the bare word 'Kinetic'. Confirm the CIK rather than the name string if re-resolving.",
+      "last_quarter_seen": "2026-06-30"
+    },
+    {
+      "fund": "SurgoCap Partners",
+      "edgar": {
+        "use": true,
+        "cik": "0001960830",
+        "filer_name": "SurgoCap Partners LP"
+      },
+      "dealcloud": {
+        "entry_id": 336275,
+        "name": "SurgoCap Partners"
+      },
+      "caveat": null,
+      "last_quarter_seen": "2026-06-30"
+    },
+    {
+      "fund": "Voyager Global Management",
+      "edgar": {
+        "use": true,
+        "cik": "0001849753",
+        "filer_name": "Voyager Global Management LP"
+      },
+      "dealcloud": {
+        "entry_id": 336785,
+        "name": "Voyager Global",
+        "note": "Last research note is 2024-02-13, so DealCloud will essentially never be the fresher source here. Chosen over 336786 'Voyager Investment Advisors', which has no notes at all."
+      },
+      "caveat": null,
+      "last_quarter_seen": "2026-06-30"
+    },
+    {
+      "fund": "Forest Avenue Capital Management",
+      "edgar": {
+        "use": true,
+        "cik": "0001944889",
+        "filer_name": "Forest Avenue Capital Management LP"
+      },
+      "dealcloud": {
+        "entry_id": 333322,
+        "name": "Forest Avenue Capital",
+        "note": "DealCloud name omits 'Management'."
+      },
+      "caveat": "Predicted to be a non-filer when this skill was specified; it in fact files a full 13F (24 positions, $2.4B as of 2026-06-30).",
+      "last_quarter_seen": "2026-06-30"
+    }
+  ]
+}

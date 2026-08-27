@@ -1,0 +1,14 @@
+{
+ "status": "ok",
+ "row": {
+  "EntryId": 900004,
+  "Subject": {
+   "type": 0,
+   "id": 900004,
+   "name": "EMM: Foxglove Capital Update Call",
+   "entryListId": 6082
+  },
+  "AsOfDate": "2026-07-28T04:00:00Z",
+  "Body": "<p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\"><strong>EMM: Foxglove Capital Update Call</strong></span></p><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\"><strong>June Winners</strong></span></p><ul><li class=\"ck-list-marker-font-size ck-list-marker-font-family\"><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\">Alderpoint Materials +1%</span></p></li><li class=\"ck-list-marker-font-size ck-list-marker-font-family\"><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\">Bellwether Systems +96 bps</span></p></li><li class=\"ck-list-marker-font-size ck-list-marker-font-family\"><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\">Crestline Media +70 bps</span></p></li><li class=\"ck-list-marker-font-size ck-list-marker-font-family\"><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\">Dunmore Robotics +65 bps</span></p></li></ul><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\"><strong>June Losers</strong></span></p><ul><li class=\"ck-list-marker-font-size ck-list-marker-font-family\"><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\">Everline Semiconductor -93 bps</span></p></li><li class=\"ck-list-marker-font-size ck-list-marker-font-family\"><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\">Fairhaven Retail -78 bps</span></p></li><li class=\"ck-list-marker-font-size ck-list-marker-font-family\"><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\">Gladstone Freight -24 bps</span></p></li></ul><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\"><strong>June Attribution</strong></span></p><ul><li class=\"ck-list-marker-font-size ck-list-marker-font-family\"><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\">+5.88% long, +2.81% short</span></p></li></ul>"
+ }
+}

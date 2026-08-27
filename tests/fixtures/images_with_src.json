@@ -1,0 +1,14 @@
+{
+ "status": "ok",
+ "row": {
+  "EntryId": 900002,
+  "Subject": {
+   "type": 0,
+   "id": 900002,
+   "name": "EMM: Meridian Asia Q2 Webinar",
+   "entryListId": 6082
+  },
+  "AsOfDate": "2026-07-24T04:00:00Z",
+  "Body": "<p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\"><strong>EMM: Meridian Asia Q2 Webinar</strong></span></p><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\"><strong>Positioning</strong></span></p><ul><li class=\"ck-list-marker-font-size ck-list-marker-font-family\"><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\">209% gross exposure (from 223%), 80% net exposure (from 85%).</span></p></li><li class=\"ck-list-marker-font-size ck-list-marker-font-family\"><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\">Technology is roughly 40% of net capital and 45% of gross.</span></p></li><li class=\"ck-list-marker-font-size ck-list-marker-font-family\"><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\">Momentum exposure actively cut to the median peer level since May.</span></p></li></ul><p><span><img src=\"/dcstatic/richtextimages/synthetic-0\" width=\"624\" height=\"384\"></span></p><p><span><img src=\"/dcstatic/richtextimages/synthetic-1\" width=\"624\" height=\"384\"></span></p><p><span><img src=\"/dcstatic/richtextimages/synthetic-2\" width=\"624\" height=\"384\"></span></p><p><span><img src=\"/dcstatic/richtextimages/synthetic-3\" width=\"624\" height=\"384\"></span></p><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\"><strong>Outlook</strong></span></p><ul><li class=\"ck-list-marker-font-size ck-list-marker-font-family\"><p style=\"margin: 0\"><span style=\"font-family: Calibri, sans-serif; font-size: 11pt\">Expect a more rational environment in the second half.</span></p></li></ul>"
+ }
+}
